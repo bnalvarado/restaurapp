@@ -2117,6 +2117,9 @@ img.responsive-img, video.responsive-video {
 .pinned {
   position: fixed !important; }
 
+.question-title{
+  height: 166px !important;
+}
 /*********************
   Transition Classes
 **********************/
@@ -5209,7 +5212,7 @@ nav ul a span.badge {
         margin-left: 0; }
       .row .col.l5 {
         width: 41.66667%;
-        margin-left: 0; }
+        margin-left: 5%; }
       .row .col.l6 {
         width: 50%;
         margin-left: 0; }
