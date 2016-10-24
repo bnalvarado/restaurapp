@@ -26,7 +26,7 @@
             		chartContainer.find('.comments-list').append(comment);
             	}
             }else{
-            	chartContainer.find('.comments-list').append('<li>No comments</li>');
+            	chartContainer.find('.comments-list').append('<li>0 comentarios</li>');
             }
 
             // Instantiate and draw our chart, passing in some options.
@@ -40,9 +40,9 @@
         return [{
         	//Pregunta1
             'options': [[
-            	'Yes', 1
+            	'Yes', 6
             ],[
-            	'No', 4
+            	'No', 24
             ]],
             'comments': [
             	'No han pensado en un servicio como este para la empresa.',
@@ -51,9 +51,9 @@
         },{
         	//Pregunta 2
             'options': [[
-            	'Yes', 4
+            	'Yes', 25
             ],[
-            	'No', 1
+            	'No', 5
             ]],
             'comments': [
             	'No, poco presupuesto'
@@ -61,17 +61,17 @@
         },{
         	//Pregunta 3
             'options': [[
-            	'Yes', 4
+            	'Yes', 23
             ],[
-            	'No', 1
+            	'No', 7
             ]],
             'comments': []
         },{
         	//Pregunta 4
             'options': [[
-            	'Yes', 3
+            	'Yes', 18
             ],[
-            	'No', 2
+            	'No', 12
             ]],
             'comments': []
         },{
@@ -79,57 +79,57 @@
             'options': [[
             	'Yes', 0
             ],[
-            	'No', 5
+            	'No', 30
             ]],
             'comments': []
         },{
         	//Pregunta 6
             'options': [[
-            	'Yes', 4
-            ],[
-            	'No', 1
-            ]],
-            'comments': []
-        },{
-        	//Pregunta 7
-            'options': [[
-            	'Yes', 1
+            	'Yes', 26
             ],[
             	'No', 4
             ]],
             'comments': []
         },{
+        	//Pregunta 7
+            'options': [[
+            	'Yes', 5
+            ],[
+            	'No', 25
+            ]],
+            'comments': []
+        },{
         	//Pregunta 8
             'options': [[
-            	'Yes', 4
+            	'Yes', 27
             ],[
-            	'No', 1
+            	'No', 3
             ]],
             'comments': []
         },{
         	//Pregunta 9
             'options': [[
-            	'Pago online', 5
+            	'Pago online', 9
             ],[
-            	'Seguimiento del pedido', 5
+            	'Seguimiento del pedido', 11
             ],[
-            	'Opiniones', 4
+            	'Opiniones', 5
             ],[
-            	'Estadísticas del servicio', 4
+            	'Estadísticas del servicio', 5
             ]],
             'comments': []
         },{
         	//Pregunta 10
             'options': [[
-            	'Muy necesario', 7
+            	'Muy necesario', 8
             ],[
-            	'Necesario', 6
+            	'Necesario', 7
             ],[
-            	'Regular', 5
+            	'Regular', 6
             ],[
-            	'Poco necesario', 4
+            	'Poco necesario', 5
             ],[
-            	'Innecesario', 3
+            	'Innecesario', 4
             ]],
             'comments': []
         }];
